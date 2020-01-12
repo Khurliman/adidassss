@@ -1,0 +1,324 @@
+body{
+    --daysone: 'Days One',sans-serif;
+    --roboto: 'Roboto',sans-serif;
+}
+
+*{margin: 0; padding: 0;}
+
+header {
+    max-width: 1920px;
+    width: 100%;
+    height: 1080px;
+    background: url(../images/header.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 21px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #1b191e;
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 16px;
+}
+header a:hover {
+    color: #2b6ccd;
+    transition: 0.2s;
+}
+
+header li {
+    margin-left: 40px;
+}
+
+#products .carts {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+#products .carts .item {
+    margin: 15px;
+    position: relative;
+}
+
+#products .carts .item .desc {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 26px;
+    box-sizing: border-box;
+}
+
+#products .carts .item .desc .price {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    color: #2b6ccd;
+    font-size: 30px;
+    font-family: var(--roboto);
+    font-weight: 700;
+    margin: 100px 0 85px;
+}
+
+h3 {
+    color: #2b6ccd;
+    font-size: 20px;
+    font-family: var(--roboto);
+    font-weight: 700;
+}
+
+.price .adidas {
+    margin-top: 3px;
+    color: #2d2d2d;
+    font-size: 16px;
+    font-family: var(--roboto);
+    font-weight: 400;
+}
+
+.price .sum {
+    color: #2d2d2d;
+    font-size: 20px;
+    font-family: var(--roboto);
+    font-weight: 400;
+}
+
+.adidas_girl .girl {
+    height: 498px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .girl .left h4 {
+    margin-top: 85px;
+    margin-bottom: 40px;
+    color: #2b6ccd;
+    font-family: var(--daysone);
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.container h4 {
+    margin: 100px auto 100px 0;
+    color: #2b6ccd;
+    font-family: var(--roboto);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.adidas_girl {
+    height: 498px;
+    margin-top: 100px;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+}
+
+.adidas_girl .girl .left p {
+    line-height: 27px;
+    margin-bottom: 92px;
+    color: #676767;
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 18px;
+    width: 440px;
+}
+
+.adidas_girl .girl .right img {
+    width: 540px;
+    height: 500px;
+}
+
+.container .best {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 920px;
+    padding-left: 95px;
+}
+
+.container .best .right h5 {
+    margin-top: 48px;
+    color: #2b6ccd;
+    font-family: var(--roboto);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.container .best .right p {
+    margin: 56px auto 86px 0;
+    width: 445px;
+    line-height: 24px;
+    color: #484848;
+    font-size: 16px;
+    font-family: var(--roboto);
+    font-weight: 400;
+}
+
+.container .right .btn a{
+    padding: 17px 59px 16px 59px;
+    text-decoration: none;
+    color: #2b6ccd;
+    font-size: 16px;
+    font-family: var(--roboto);
+    font-weight: 300;
+    border: 1px solid #2b6ccd;
+}
+
+.container .info {
+    margin-top: 100px;
+    height: 612px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    width: 375px;
+}
+
+h5 {
+    margin-bottom: 22px;
+    color: #2b6ccd;
+    font-size: 30px;
+    font-family: var(--roboto);
+    font-weight: 700;
+}
+
+.container .right .contacts p {
+    color: #484848;
+    font-size: 16px;
+    font-family: var(--roboto);
+    font-weight: 400;
+}
+
+.info .right .contacts span {
+    color: #484848;
+    font-family: var(--roboto);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.contacts .address {
+    margin-top: 30px;
+}
+
+.container .right .contacts {
+    padding-top: 32px;
+}
+
+.info .right h6 {
+    margin-bottom: -4px;
+}
+
+.info .left {
+    width: 335px;
+}
+
+.info .left input {
+    border: 0;
+    padding: 30px 0 8px 15px;
+    border-bottom: 1px solid #484848;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+.info .left .comment input {
+    border: 1px solid #484848;
+    height: 130px;
+    width: 335px;
+    margin-top: 30px;
+    padding: 22px 0 0 15px;
+}
+
+.info .left .send {
+    height: 40px;
+    width: 350px;
+    margin-top: 10px;
+    background-color: #2b6ccd;
+}
+
+.container .left .send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .left .send a {
+    text-decoration: none;
+    color: #f8f8f8;
+    font-size: 16px;
+    font-family: var(--roboto);
+    font-weight: 700;
+}
+
+h6 {
+    color: #2b6ccd;
+    font-family: var(--roboto);
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.section {
+    background: #f8f8f8;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.services {
+    height: 195px;
+}
+
+.services p, .services p a, .bottom p, .bottom p a {
+    line-height: 36px;
+    color: #222222;
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.bottom p a:hover, .services p a:hover {
+    color: #2b6ccd;
+    transition: 0.2s;
+}
+
+footer .container {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.names {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 58px;
+}
